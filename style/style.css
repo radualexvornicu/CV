@@ -1,3 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,100;1,700&display=swap');
-</style>
 
+body{
+    background: lightgreen
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.left{
+    width: 25%;
+    background: lightseagreen;
+    border-style: 5px solid;
+    border-color: white;
+    border-radius: 2%;
+    box-shadow: 3px 3px lightgrey, -1em 0 .4em olive;
+    margin: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.right{
+    width: 50%;
+    background: lightskyblue;
+    border-style: 1px solid;
+    border-color: limegreen;
+    border-radius: 2%;
+    box-shadow: 3px 3px lightgrey, -1em 0 .4em olive;
+    margin: 0 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+}
