@@ -6,9 +6,10 @@ main{
     display: flex;
     flex-direction: row;
     margin-top: 10%;
+    justify-content: center;
 }
 .left{
-    width: 25%;
+    width: 20%;
     background: lightseagreen;
     border-style: 5px solid;
     border-color: white;
@@ -19,7 +20,7 @@ main{
     flex-direction: column;
 }
 .right{
-    width: 50%;
+    width: 40%;
     background: lightskyblue;
     border-style: 1px solid;
     border-color: limegreen;
@@ -29,3 +30,34 @@ main{
     display: flex;
     flex-direction: column;
 }
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_content{
+
+}
+.left_title{
+    width: 100%;
+    height: max-content;
+    background: darkkhaki;
+    border-style: 1px solid;
+    border-color: darkkhaki;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 0 0 .4em lightsteelblue;
+}
+.left ul{
+    list-style: none;
+    padding-left: 20%;
+}
+.left ul li:hover{
+    text-shadow: 0 0 .2em black;
+    transition-delay: 0.1s;
+}
+
+
+
