@@ -13,7 +13,7 @@ main{
     background: lightseagreen;
     border-style: 5px solid;
     border-color: white;
-    border-radius: 2%;
+    border-radius: 4em;
     box-shadow: 3px 3px lightgrey, -1em 0 .4em olive;
     margin: 0 15px 0 15px;
     display: flex;
@@ -24,7 +24,7 @@ main{
     background: lightskyblue;
     border-style: 1px solid;
     border-color: limegreen;
-    border-radius: 2%;
+    border-radius: 4em;
     box-shadow: 3px 3px lightgrey, -1em 0 .4em olive;
     margin: 0 15px 0 15px;
     display: flex;
@@ -46,7 +46,7 @@ figure{
     background: darkkhaki;
     border-style: 1px solid;
     border-color: darkkhaki;
-    border-radius: 5%;
+    border-radius: 2em;
     text-align: center;
     box-shadow: 0 0 .4em lightsteelblue;
 }
@@ -55,9 +55,30 @@ figure{
     padding-left: 20%;
 }
 .left ul li:hover{
-    text-shadow: 0 0 .2em black;
+    text-shadow: 0 0 .2em cornsilk;
     transition-delay: 0.1s;
 }
 
+.list_right{
+    display: flex;
+    flex-direction: row;
+}
+.text_body{
+    margin-left: 10%;
+}
+.right_content{
+    width: 96%;
+    height: max-content;
+    background: rgb(50, 200, 180);
+    border-style: 1px solid;
+    border-color: white;
+    border-radius: 4em;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.5%;
+    margin-bottom: .5%;
+    box-shadow: 0 0 2em white;    
+}
 
 
