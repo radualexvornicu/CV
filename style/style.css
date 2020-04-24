@@ -1,6 +1,22 @@
+h1{
+    font-size: 2.5vw;
+}
+h2{
+    font-size: 2vw;
+    
+}
+h3{
+    font-size: 1.5vw;
+
+}
+h4{
+    font-size: 1vw;
+
+}
+
 
 body{
-    background: lightgreen
+    background:#A5D6A7;
 }
 main{
     display: flex;
@@ -10,22 +26,21 @@ main{
 }
 .left{
     width: 20%;
-    background: lightseagreen;
+    background: #1abc9c;
     border-style: 5px solid;
-    border-color: white;
     border-radius: 4em;
-    box-shadow: 3px 3px lightgrey, -1em 0 .4em olive;
+    box-shadow: 3px 3px #E0E0E0, 0 0 1em #FFC107;
     margin: 0 15px 0 15px;
     display: flex;
     flex-direction: column;
 }
 .right{
-    width: 40%;
-    background: lightskyblue;
+    width: 50%;
+    background: #e53935;
     border-style: 1px solid;
-    border-color: limegreen;
+    border-color: #e53935;
     border-radius: 4em;
-    box-shadow: 3px 3px lightgrey, -1em 0 .4em olive;
+    box-shadow: 3px 3px #E0E0E0, 0 0 1em #FFC107;
     margin: 0 15px 0 15px;
     display: flex;
     flex-direction: column;
@@ -43,19 +58,19 @@ figure{
 .left_title{
     width: 100%;
     height: max-content;
-    background: darkkhaki;
+    background: #0063B1;
     border-style: 1px solid;
-    border-color: darkkhaki;
+    border-color: #0063B1;
     border-radius: 2em;
     text-align: center;
-    box-shadow: 0 0 .4em lightsteelblue;
+    box-shadow: 0 0 .4em #BBDEFB;
 }
 .left ul{
     list-style: none;
     padding-left: 20%;
 }
 .left ul li:hover{
-    text-shadow: 0 0 .2em cornsilk;
+    text-shadow: 0 0 .2em #FFF59D;
     transition-delay: 0.1s;
 }
 
@@ -69,7 +84,7 @@ figure{
 .right_content{
     width: 96%;
     height: max-content;
-    background: rgb(50, 200, 180);
+    background: #C5CAE9;
     border-style: 1px solid;
     border-color: white;
     border-radius: 4em;
@@ -80,5 +95,17 @@ figure{
     margin-bottom: .5%;
     box-shadow: 0 0 2em white;    
 }
-
-
+header{
+    width: 96%;
+    height: max-content;
+    background: #C5CAE9;
+    border-style: 1px solid;
+    border-color: white;
+    border-radius: 4em;
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0.5%;
+    margin-bottom: .5%;
+    box-shadow: 0 0 2em white;
+}
