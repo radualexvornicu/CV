@@ -1,47 +1,52 @@
-h1{
-    font-size: 2.5vw;
-}
-h2{
-    font-size: 2vw;
-    
-}
-h3{
-    font-size: 1.5vw;
-
-}
-h4{
-    font-size: 1vw;
-
-}
+@import url('https://fonts.googleapis.com/css?family=Muli:400,500,600,700,900&display=swap');
 
 
 body{
-    background:#A5D6A7;
+    background: lightgray;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+    font-family: 'Muli', sans-serif;
+
 }
 main{
     display: flex;
     flex-direction: row;
-    margin-top: 10%;
     justify-content: center;
 }
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.title_big{
+    font-weight: 400;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.semi_bold{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 0;
+}
 .left{
-    width: 20%;
-    background: #1abc9c;
-    border-style: 5px solid;
-    border-radius: 4em;
-    box-shadow: 3px 3px #E0E0E0, 0 0 1em #FFC107;
-    margin: 0 15px 0 15px;
+    width: 250px;
+    background: #f1c40f;
+    /* border-radius: 4em; */
+    /* box-shadow: 3px 3px #E0E0E0, 0 0 1em #FFC107; */
+    margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: column
+}
+span{
+    color: #f1c40f;
+    text-transform: uppercase;
 }
 .right{
-    width: 50%;
-    background: #e53935;
-    border-style: 1px solid;
-    border-color: #e53935;
-    border-radius: 4em;
-    box-shadow: 3px 3px #E0E0E0, 0 0 1em #FFC107;
-    margin: 0 15px 0 15px;
+    width: 500px;
+    background: #ecf0f1;
+    margin: 0;
     display: flex;
     flex-direction: column;
 }
@@ -58,16 +63,12 @@ figure{
 .left_title{
     width: 100%;
     height: max-content;
-    background: #0063B1;
-    border-style: 1px solid;
-    border-color: #0063B1;
-    border-radius: 2em;
+    background: #555555;
     text-align: center;
-    box-shadow: 0 0 .4em #BBDEFB;
 }
 .left ul{
     list-style: none;
-    padding-left: 20%;
+    padding-left: 20px;
 }
 .left ul li:hover{
     text-shadow: 0 0 .2em #FFF59D;
@@ -79,33 +80,23 @@ figure{
     flex-direction: row;
 }
 .text_body{
-    margin-left: 10%;
+    margin-left: 15px;
 }
 .right_content{
-    width: 96%;
+    width: auto;
     height: max-content;
-    background: #C5CAE9;
-    border-style: 1px solid;
-    border-color: white;
-    border-radius: 4em;
+    background: #ecf0f1;
     text-align: left;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 0.5%;
-    margin-bottom: .5%;
-    box-shadow: 0 0 2em white;    
+
 }
 header{
-    width: 96%;
-    height: max-content;
-    background: #C5CAE9;
-    border-style: 1px solid;
-    border-color: white;
-    border-radius: 4em;
+    background: #ecf0f1;
     text-align: left;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 0.5%;
-    margin-bottom: .5%;
-    box-shadow: 0 0 2em white;
+}
+
+img{
+    width: 150px;
+height: 150px;
+border-radius: 50%;
+box-shadow: 0 0 0.4em black;
 }
