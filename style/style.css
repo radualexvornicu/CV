@@ -30,6 +30,18 @@ main{
     font-size: 20px;
     margin-top: 0;
 }
+
+.title_medium{
+    font-weight: 700;
+    font-size: 20px;
+    border-bottom: 3px solid #f1c40f;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px;
+
+
+}
+
 .left{
     width: 250px;
     background: #f1c40f;
@@ -39,9 +51,13 @@ main{
     display: flex;
     flex-direction: column
 }
-span{
+.span_color{
     color: #f1c40f;
     text-transform: uppercase;
+}
+.span_underline{
+    text-decoration: underline;
+    text-decoration-color: #f1c40f;
 }
 .right{
     width: 500px;
@@ -57,7 +73,9 @@ figure{
     align-items: center;
 }
 
-.left_content{
+.left_hobby{
+    display: flex;
+    flex-wrap: wrap;
 
 }
 .left_title{
@@ -99,4 +117,15 @@ img{
 height: 150px;
 border-radius: 50%;
 box-shadow: 0 0 0.4em black;
+}
+.icon{
+    color: #555555;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.icon_skill{
+    color: #f1c40f; 
+    font-size: 35px;
+    padding-right: 40px;
 }
