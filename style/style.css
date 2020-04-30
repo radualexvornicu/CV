@@ -3,7 +3,7 @@
 
 body{
     background: lightgray;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
     color: #555555;
     font-family: 'Muli', sans-serif;
@@ -16,19 +16,20 @@ main{
 }
 .bold{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 40px;
     text-transform: uppercase;
 }
 .title_big{
     font-weight: 400;
-    font-size: 40px;
+    font-size: 60px;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .semi_bold{
     font-weight: 400;
     font-size: 20px;
     margin-top: 0;
+    margin-bottom: 100px;
 }
 
 .title_medium{
@@ -38,6 +39,7 @@ main{
     margin-left: 40px;
     margin-right: 40px;
     padding-bottom: 20px;
+    margin-top: 0px;
 
 
 }
@@ -45,9 +47,7 @@ main{
 .left{
     width: 250px;
     background: #f1c40f;
-    /* border-radius: 4em; */
-    /* box-shadow: 3px 3px #E0E0E0, 0 0 1em #FFC107; */
-    margin: 0;
+    margin: 0px;
     display: flex;
     flex-direction: column
 }
@@ -60,9 +60,9 @@ main{
     text-decoration-color: #f1c40f;
 }
 .right{
-    width: 500px;
+    width: 600px;
     background: #ecf0f1;
-    margin: 0;
+    margin: 0px;
     display: flex;
     flex-direction: column;
 }
@@ -74,6 +74,7 @@ figure{
 }
 
 .left_hobby{
+
     display: flex;
     flex-wrap: wrap;
 
@@ -86,7 +87,8 @@ figure{
 }
 .left ul{
     list-style: none;
-    padding-left: 20px;
+    margin-left: 20px;
+    padding-left: 10px;
 }
 .left ul li:hover{
     text-shadow: 0 0 .2em #FFF59D;
@@ -96,9 +98,13 @@ figure{
 .list_right{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .text_body{
-    margin-left: 15px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
 }
 .right_content{
     width: auto;
@@ -113,19 +119,49 @@ header{
 }
 
 img{
-    width: 150px;
-height: 150px;
-border-radius: 50%;
-box-shadow: 0 0 0.4em black;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 0.4em black;
 }
 .icon{
     color: #555555;
-    margin-left: 30px;
-    margin-bottom: 30px;
-    font-size: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    font-size: 32px;
 }
 .icon_skill{
     color: #f1c40f; 
-    font-size: 35px;
+    font-size: 32px;
     padding-right: 40px;
+}
+.h5_date{
+    width: 200px;
+    margin-right: 50px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.h4_title{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-transform: uppercase;
+}
+h5{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.dot_list{
+    color: #f1c40f;
+    font-size: 12px;
+    padding-left: 0px;
+    padding-top: 7px;
+    padding-right: 15px;
+}
+.height_left_title{
+    height: 600px;
 }
