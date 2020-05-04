@@ -183,7 +183,7 @@ h5{
 
 
 
-@media all and ( max-width: 420px )
+@media all and ( max-width: 640px )
 {
 body{
     background: lightgray;
