@@ -277,7 +277,7 @@ img{
 }
 @media all and (min-width: 860px ) and (max-width: 920px){
     body{
-    font-size: 14x;
+    font-size: 14px;
     line-height: 20px;
     }
     .left{
