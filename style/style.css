@@ -275,7 +275,7 @@ img{
 }
 
 }
-@media all and (min-width: 860px ) and (max-width: 920px){
+@media all and (min-width: 768px ) and (max-width: 920px){
     body{
     font-size: 14px;
     line-height: 20px;
@@ -298,59 +298,12 @@ img{
     }
 
 }
-@media all and (max-width: 860px) and (min-width: 768px)
-{
-    main{
-        width: 100%;
-        flex-direction: column;
-    }
-    body{
-        font-size: 14px;
-        line-height: 20px;
-    }
-    .title_big{
-    font-size: 45px;
-    line-height: 35px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-    }
-    .title_medium{
-        font-size: 20px;
-    }
-    .date{
-        width: 250px;
-    }
-    img{
-        width: 180px;
-        height: 180px;
-         }
-    .left{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-    .right{
-        width: 100%;
-    }
-    figure{
-        display: none;
-    }
-    .left_content{
-        width: 70%;
-        flex-grow: 0;
-    }
-    .left_hobby{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
+
 @media all and (min-width: 420px) and (max-width: 768px)
 {
 
     main{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     body{
         font-size: 14px;
@@ -430,7 +383,7 @@ img{
 }
 @media all and (max-width:420px) {
     main{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     body{
         font-size: 10px;
