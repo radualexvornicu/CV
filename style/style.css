@@ -9,7 +9,7 @@
 
 body{
     background: lightgray;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 22px;
     color: #555555;
  
@@ -62,7 +62,9 @@ main{
     display: flex;
     flex-direction: column;
 }
-
+.left ul li{
+    padding-bottom: 15px;
+}
 .span_color{
     color: #f1c40f;
     text-transform: uppercase;
@@ -248,7 +250,10 @@ header{
 
 }
 @media all and ( max-width: 1024px)and (min-width: 920px){
-
+    
+.left ul li{
+    padding-bottom: 12px;
+}
     .title_medium{
         margin-bottom: 5px;
     }
@@ -283,6 +288,10 @@ img{
     .left{
         width: 30%;
     }
+    
+.left ul li{
+    padding-bottom: 10px;
+}
     .right{
         width: 70%;
     }
@@ -301,7 +310,10 @@ img{
 
 @media all and (min-width: 420px) and (max-width: 768px)
 {
-
+    
+.left ul li{
+    padding-bottom: 10px;
+}
     main{
         flex-direction: column;
     }
@@ -382,6 +394,9 @@ img{
 
 }
 @media all and (max-width:420px) {
+    .left ul li{
+        padding-bottom: 10px;
+    }
     main{
         flex-direction: column;
     }
